@@ -61,12 +61,6 @@ public class Employee {
 
     }
 
-    public String getDepartment(){
-
-        return department;
-
-    }
-
     public int getSalary(){
 
         return salary;
@@ -82,6 +76,19 @@ public class Employee {
     public String getSpecialties(){
 
         return specialties;
+
+    }
+
+    public String getDepartment(){
+
+        return department;
+
+    }
+
+
+    public void setDepartment(String department){
+
+        this.department = department;
 
     }
 
