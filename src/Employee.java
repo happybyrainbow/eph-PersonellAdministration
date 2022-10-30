@@ -6,12 +6,12 @@ public class Employee {
     private int age;
     private double weight;
     private String department;
-    private int salary;
+    private double salary;
     private int yearsOfService;
     private String specialties;
 
 
-    public Employee(String name, String surname, String birthday, char gender, int age, double weight, String department, int salary, int yearsOfService, String specialties){
+    public Employee(String name, String surname, String birthday, char gender, int age, double weight, String department, double salary, int yearsOfService, String specialties){
         this.name = name;
         this.surname = surname;
         this.birthday = birthday;
@@ -61,7 +61,7 @@ public class Employee {
 
     }
 
-    public int getSalary(){
+    public double getSalary(){
 
         return salary;
 
@@ -85,7 +85,35 @@ public class Employee {
 
     }
 
+    public void setName(String name){
 
+        this.name = name;
+
+    }
+
+    public void setAge(int age){
+
+        this.age = age;
+
+    }
+
+    public void setGender(char gender){
+
+        this.gender = gender;
+
+    }
+
+    public void setWeight(double weight){
+
+        this.weight = weight;
+
+    }
+
+    public void setSalary(double salary){
+
+        this.salary = salary;
+
+    }
     public void setDepartment(String department){
 
         this.department = department;
